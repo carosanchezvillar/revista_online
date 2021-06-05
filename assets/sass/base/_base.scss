@@ -1,0 +1,31 @@
+@media only screen and (min-width: 768px){
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: monospace;
+}
+
+.contenedor {
+    width: 960px;
+    margin: 0 auto;
+}
+
+}
+
+
+@media only screen and (max-width: 600px){
+
+    .contenedor {
+        width: 600px;
+        margin: 0 auto;
+    }
+
+    body {
+        font-family: monospace;
+    }
+
+
+}
